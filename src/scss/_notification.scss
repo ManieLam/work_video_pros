@@ -1,0 +1,57 @@
+.c-notification {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 12px;
+  padding: 10px 12px 10px 0;
+  border-bottom: 1rpx solid #e5e5e5;
+  &__unread{
+    background-color: #fefeee;  
+  }
+  
+}
+
+.c-notification__content {
+  flex: 1;
+  display: flex;
+  margin-left: 12px;
+  align-items: flex-start;
+}
+
+.c-notification__thumb {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.c-notification__avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+
+.c-notification__body {
+  flex: 1;
+}
+
+.c-notification__sender {
+  font-size: 14px;
+  color: #466492;
+  line-height: 1;
+  margin-bottom: 2px;
+}
+
+.c-notification__inner {
+  margin-bottom: 4px;
+}
+
+.c-notification__time {
+  font-size: 11px;
+  color: #777;
+}
+
+.c-notification__text {
+  font-size: 12px;
+  color: #333;
+  line-height: 18px;
+}

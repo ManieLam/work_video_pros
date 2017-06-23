@@ -1,0 +1,37 @@
+<view class="p-user">
+    <view class="c-userInfo">
+        <image class="c-userInfo__avatar" src="{{user.avatar}}" background-size="cover"></image>
+        <view class="c-userInfo__name">{{user.nickname}}</view>
+    </view>
+    <view class="c-cellList">
+        <navigator url="fav" class="c-cell c-cell--link">
+            <view class="c-cell__media">
+                <view class="icon-like"></view>
+            </view>
+            <view class="c-cell__content">我的收藏</view>
+            <view class="c-cell__after">
+
+            </view>
+        </navigator>
+        <!-- END .c-cell -->
+        <navigator url="notification" class="c-cell c-cell--link">
+            <view class="c-cell__media">
+                <view class="icon-comment"></view>
+            </view>
+            <view class="c-cell__content">我的消息</view>
+            <view class="c-cell__after">
+            </view>
+        </navigator>
+        <!-- END .c-cell -->
+        <view class="c-cell c-cell--link">
+            <view class="c-cell__media">
+                <view class="icon-contact"></view>
+            </view>
+            <button class="c-cell__content" session-from="profile" id="c-cell__btn" open-type="contact">
+                联系我们
+            </button>
+            <view class="c-cell__after"></view>
+        </view>
+        <!-- END .c-cell -->
+    </view>
+</view>

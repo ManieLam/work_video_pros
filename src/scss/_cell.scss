@@ -1,0 +1,44 @@
+.c-cell {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-left: 12px;
+  padding-right: 12px;
+  min-height: 49px;
+  border-bottom: 1rpx solid #e5e5e5;
+}
+
+.c-cell__media {
+  flex: 0 0 auto;
+  margin-right: 6px;
+}
+
+.c-cell__content {
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+}
+
+.c-cell__after {
+  flex: 0 0 auto;
+}
+
+.c-cell--link {
+  padding-right: 25px;
+  background-image: url(arrow-right.svg);
+  background-position: calc(100% - 12px) center;
+  background-size: auto 13px;
+  background-repeat: no-repeat;
+}
+
+// 列表
+.c-cellList {
+  border-top: 1rpx solid #e5e5e5;
+  border-bottom: 1rpx solid #e5e5e5;
+  .c-cell {
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}
