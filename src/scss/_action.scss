@@ -1,94 +1,94 @@
 .c-action {
-  display: inline-flex;
-  margin-left: 8px;
-  vertical-align: bottom;
-  align-items: center;
+    display: inline-flex;
+    margin-left: 8px;
+    vertical-align: bottom;
+    align-items: center;
 }
 
 .c-action__icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 2px;
-  background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    background-size: cover;
 }
 
 .c-action__text {
-  color: #ff7633;
-  font-size: 16px;
+    color: #ff7633;
+    font-size: 16px;
 }
 
 .icon-cart {
-  width: 20px;
-  height: 20px;
-  background-size: cover;
-  background-image: url(cart.png);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-image: url(cart.png);
 }
 
 .icon-rss {
-  width: 20px;
-  height: 20px;
-  background-size: cover;
-  background-image: url(rss.png);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-image: url(rss.png);
 }
 
 .icon-contact {
-  width: 25px;
-  height: 25px;
-  background-size: cover;
-  background-image: url(contact.png);
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-image: url(contact.png);
 }
 
 .icon-like {
-  width: 25px;
-  height: 25px;
-  background-size: cover;
-  background-image: url(like.png);
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-image: url(like.png);
 }
 
 .icon-comment {
-  width: 25px;
-  height: 25px;
-  background-size: cover;
-  background-image: url(comment.png);
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-image: url(comment.png);
 }
 
 .icon-share {
-  width: 32px;
-  height: 32px;
-  background-size: cover;
-  background-image: url(share.png);
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background-image: url(share.png);
 }
 
 .icon-star {
-  width: 32px;
-  height: 32px;
-  background-size: cover;
-  background-image: url(star.png);
-  &.is-active {
-    background-image: url(star-active.png);
-  }
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background-image: url(star.png);
+    &.is-active {
+        background-image: url(star-active.png);
+    }
 }
 
 .icon-video {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
-  background-image: url(video.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-image: url(video.png);
 }
 
 .hint {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
-  color: #888;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  &__line {
-    width: 60px;
-    height: 1px;
-    border-bottom: 1rpx solid #ccc;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #888;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    &__line {
+        width: 60px;
+        height: 1px;
+        border-bottom: 1rpx solid #ccc;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }

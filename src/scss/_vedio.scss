@@ -1,6 +1,6 @@
 .c-vedioList {
     background: #efefef;
-    height: 100%;
+    // height: 100%;
     .c-news {
         margin-bottom: 15px;
         padding: 0;
@@ -19,20 +19,21 @@
     }
     .c-news__body {
         margin-bottom: 0;
-        height: 210px;
+        // height: 210px;
     }
     .c-news__account__avatar {
         width: 33px;
         height: 33px;
     }
     .c-video {
-        background-color: #fff;
+        // background-color: #fff;
         position: relative;
         margin: 0;
         image {
+            position: relative;
             width: 100%;
             min-width: 320px;
-            height: 210px;
+            height: 220px;
         }
         .c-news__text {
             color: #fff;

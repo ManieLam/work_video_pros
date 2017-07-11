@@ -229,7 +229,7 @@ view::after {
   font-size: 13px;
   color: #888;
   margin-top: 15px;
-  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .hint__line {
@@ -276,6 +276,7 @@ view::after {
   position: relative;
   display: inline-block;
   margin-top: 5px;
+  box-sizing: border-box;
   background-color: #000;
   width: 100%;
 }
@@ -776,7 +777,6 @@ view::after {
 
 .c-vedioList {
   background: #efefef;
-  height: 100%;
 }
 
 .c-vedioList .c-news {
@@ -806,7 +806,6 @@ view::after {
 
 .c-vedioList .c-news__body {
   margin-bottom: 0;
-  height: 210px;
 }
 
 .c-vedioList .c-news__account__avatar {
@@ -815,15 +814,15 @@ view::after {
 }
 
 .c-vedioList .c-video {
-  background-color: #fff;
   position: relative;
   margin: 0;
 }
 
 .c-vedioList .c-video image {
+  position: relative;
   width: 100%;
   min-width: 320px;
-  height: 210px;
+  height: 220px;
 }
 
 .c-vedioList .c-video .c-news__text {
